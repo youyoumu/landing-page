@@ -13,13 +13,22 @@ body {
     display: flex;
     justify-content: space-between;
     color: white;
-    
+    padding: 16px 150px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 16px;
+    padding: 0px;
+    margin: 0px;
+    color: #E5E7EB;
+    
 }
 
 .hero {
