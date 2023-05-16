@@ -36,6 +36,42 @@ ul {
     background-color: #1F2937;
     color: white;
     justify-content: space-between;
+    padding: 80px 150px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+
+.hero-2nd {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 8px;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.hero-img {
+    margin-left: 32px;
+    flex-shrink: 1;
+    align-items: center;
+    display: flex;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    min-width: 400px;
 }
 
 .screenshot {
