@@ -136,12 +136,13 @@ p {
     font-weight: bold;      
     font-size: 18px;
     width: auto;
-    
+    font-style: normal;
 }
 
 .actual-quote {
     
     max-width: 900px;
+    min-width: 600px;
     
 }
 .quote-by {
@@ -164,12 +165,42 @@ p {
     
 }
 
-
+.invite-container {
+    padding: 50px 150px;
+    display: flex;
+    justify-content: center;
+}
 .invite {
     background-color: #3882f6;
     color: white;
     display: flex;
     justify-content: space-between;
+    padding: 20px 50px;
+    border-radius: 5px;
+    min-width: 600px;
+    max-width: 900px;
+    flex-grow: 1;
+    align-items:center;
+}
+
+.invite-text-top {
+    font-weight: bolder;
+}
+
+.invite-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.invite button {
+    
+    border: 1px solid white;
+    padding: 4px 16px;
+    margin: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    
 }
 
 .footer {
