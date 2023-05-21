@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     align-content: center;
     margin: 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
@@ -117,16 +117,53 @@ p {
     
 }
 
+.actual-quote p {
+    width:auto;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    
+    text-align: left;
+    
+    margin: 0px;
+}
+
+.quote-by p {
+    padding: 0px;
+    margin: 0px;
+    color: #1F2937;
+    font-weight: bold;      
+    font-size: 18px;
+    width: auto;
+    
+}
+
+.actual-quote {
+    
+    max-width: 900px;
+    
+}
+.quote-by {
+    display: flex;
+    width: auto;
+    flex-grow: 1;
+    
+    justify-content: end;
+    
+}
+
 .quote {
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #E5E7EB;
+    padding: 100px;
+    
+    
+    
 }
 
-.quote-by {
-
-}
 
 .invite {
     background-color: #3882f6;
