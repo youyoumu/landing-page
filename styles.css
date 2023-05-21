@@ -14,7 +14,7 @@ body {
     justify-content: space-between;
     color: white;
     padding: 16px 150px;
-    min-width: 800px;
+    min-width: 600px;
 }
 
 .header-logo {
@@ -36,9 +36,9 @@ ul {
     display: flex;
     background-color: #1F2937;
     color: white;
-    justify-content: space-between;
+    justify-content: center;
     padding: 80px 150px;
-    min-width: 800px;
+    min-width: 600px;
 }
 
 .hero-main {
@@ -67,6 +67,10 @@ button {
     margin-left: 32px;
     align-items: center;
     
+}
+
+.hero-img img {
+    min-width: 400px;
 }
 
 img {
