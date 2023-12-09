@@ -1,3 +1,6 @@
-# yym-aof6
+# landing-page
 
-https://youyoumu.github.io/yym-aof6/
+This is part of The Odin Project course
+
+Live Preview:
+https://youyoumu.github.io/landing-page/
